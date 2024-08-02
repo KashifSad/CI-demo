@@ -32,3 +32,17 @@ jobs:
       - name: run flake8
         run: |
           flake8 app.py
+  
+  testing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: code checkout
+        uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/checkout@v2
+
+      - name: run unit test
+        run: |
+          python -m discover unittest
