@@ -2,11 +2,9 @@ name: CI
 
 on: 
   push:
-<<<<<<< HEAD
+
     branches:
-=======
-    branches: 
->>>>>>> temp
+
       - master
 
   pull_request:
