@@ -9,7 +9,7 @@ def mul(a, b):
     return a*b
 
 
-result = add(4, 5)
+result = add(4, 10)
 result2 = sub(6, 3)
 
 
